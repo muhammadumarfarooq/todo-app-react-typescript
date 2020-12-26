@@ -6,3 +6,4 @@ interface Todo {
 
 //toggle function
 type ToggleTodo = (selectedTodo: Todo) => void;
+type HandleAddTodoForm = (todo: Todo) => void
